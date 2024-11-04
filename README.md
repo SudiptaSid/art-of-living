@@ -1,2 +1,2 @@
-# art-of-living
+# Art of Living
  
