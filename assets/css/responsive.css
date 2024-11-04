@@ -1,0 +1,158 @@
+/* ------------------------ Max Width 1366px ------------------------ */
+@media (max-width: 1366px) {
+
+}
+/* ------------------------ Max Width 1280px ------------------------ */
+@media (max-width: 1280px) {
+
+}
+/* ------------------------ Max Width 1080px ------------------------ */
+@media (max-width: 1080px) {
+body {
+	font-size:14px;
+}
+.heading {
+	font-size:34px;
+}
+.heading span {
+	font-size:20px;
+}
+#cs_banner_caption .caption h1 {
+	font-size:34px;
+}
+#cs_banner_caption .caption h1 span {
+	font-size:20px;
+}
+#cs_welcome .wel_list figure figcaption {
+	padding-right:5px;
+}
+footer .f_heading {
+	font-size:18px;
+}
+}
+/* ------------------------ Max Width 1024px ------------------------ */
+@media (max-width: 1024px) {
+
+}
+/* ------------------------ Max Width 966px ------------------------ */
+@media (max-width: 966px) {
+#cs_service_icons .s_list .s_list_item {
+	margin:10px;
+}
+}
+/* ------------------------ Max Width 853px ------------------------ */
+@media (max-width: 853px) {
+
+}
+/* ------------------------ Max Width 800px ------------------------ */
+@media (max-width: 800px) {
+
+}
+/* ------------------------ Max Width 768px ------------------------ */
+@media (max-width: 768px) {
+
+}
+/* ------------------------ Max Width 736px ------------------------ */
+@media (max-width: 736px) {
+#cs_navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+#cs_welcome .wel_list figure {
+    flex-basis: 100%;
+}
+#cs_waol .grid_left {
+    border-right: none;
+}
+#cs_waol .grid_right {
+    padding-left: 15px;
+}
+#cs_gallery figure figcaption a {
+	left:10px;
+}
+#cs_gallery figure figcaption a h5 {
+	font-size:16px;
+}
+#cs_gallery figure figcaption a p {
+	font-size:12px;
+}
+#cs_testimonial .cs_says {
+    padding: 50px 10px;
+    max-width: 100%;
+}
+#cs_testimonial .cs_says>p:before {
+	left:10px;
+	font-size:60px;
+}
+}
+/* ------------------------ Max Width 732px ------------------------ */
+@media (max-width: 732px) {
+
+}
+/* ------------------------ Max Width 720px ------------------------ */
+@media (max-width: 720px) {
+
+}
+/* ------------------------ Max Width 690px ------------------------ */
+@media (max-width: 690px) {
+
+}
+/* ------------------------ Max Width 667px ------------------------ */
+@media (max-width: 667px) {
+
+}
+/* ------------------------ Max Width 640px ------------------------ */
+@media (max-width: 640px) {
+
+}
+/* ------------------------ Max Width 603px ------------------------ */
+@media (max-width: 603px) {
+
+}
+/* ------------------------ Max Width 600px ------------------------ */
+@media (max-width: 600px) {
+
+}
+/* ------------------------ Max Width 598px ------------------------ */
+@media (max-width: 598px) {
+
+}
+/* ------------------------ Max Width 568px ------------------------ */
+@media (max-width: 568px) {
+
+}
+/* ------------------------ Max Width 533px ------------------------ */
+@media (max-width: 533px) {
+
+}
+/* ------------------------ Max Width 480px ------------------------ */
+@media (max-width: 480px) {
+.heading {
+    font-size: 24px;
+}
+}
+/* ------------------------ Max Width 414px ------------------------ */
+@media (max-width: 414px) {
+
+}
+/* ------------------------ Max Width 412px ------------------------ */
+@media (max-width: 412px) {
+
+}
+/* ------------------------ Max Width 384px ------------------------ */
+@media (max-width: 384px) {
+
+}
+/* ------------------------ Max Width 375px ------------------------ */
+@media (max-width: 375px) {
+
+}
+/* ------------------------ Max Width 360px ------------------------ */
+@media (max-width: 360px) {
+
+}
+/* ------------------------ Max Width 320px ------------------------ */
+@media (max-width: 320px) {
+
+}

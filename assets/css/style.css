@@ -1,0 +1,280 @@
+/* --------------------------------------------------------------------------------
+                            Banner Caption
+-------------------------------------------------------------------------------- */
+#cs_banner_caption {
+	margin-top:100px;
+	margin-bottom:100px;
+	text-align: center;
+}
+#cs_banner_caption .caption {
+	color:#fff;
+	max-width:650px;
+	display: inline-block;
+}
+#cs_banner_caption .caption h1 {
+	font-size:44px;
+	font-weight:700;
+	margin-bottom:20px;
+	text-transform: uppercase;
+}
+#cs_banner_caption .caption h1 span {
+	font-size:28px;
+	font-weight:500;
+	margin-bottom:15px;
+	display: block;
+}
+#cs_banner_caption .caption p {
+	margin-bottom:0px;
+}
+/* --------------------------------------------------------------------------------
+                            Service Icons
+-------------------------------------------------------------------------------- */
+#cs_service_icons {
+	position: relative;
+    bottom: -60px;
+}
+#cs_service_icons .s_list {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cs_service_icons .s_list .s_list_item {
+	width: 125px;
+    height: 125px;
+    padding: 10px;
+    background-color: #bf1e2e;
+    box-shadow:2px 2px 10px 0px rgba(0, 0, 0, 0.46);
+    margin: 0px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#cs_service_icons .s_list .s_list_item:nth-child(even) {
+	background-color: #5e5e5e;
+}
+#cs_service_icons .s_list .s_list_item img {
+	width: auto;
+    display: inline-block;
+}
+#cs_service_icons .s_list .s_list_item span {
+	display: block;
+	color:#fff;
+	line-height: 1.2;
+    margin-top: 5px;
+}
+/* --------------------------------------------------------------------------------
+                            Welcome Section
+-------------------------------------------------------------------------------- */
+#cs_welcome {
+	padding-top:140px;
+	padding-bottom:80px;
+	background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+#cs_welcome h3 {
+	font-size:26px;
+	font-weight:500;
+}
+#cs_welcome .wel_list {
+	display: flex;
+    flex-wrap: wrap;
+}
+#cs_welcome .wel_list figure {
+	flex-basis: 50%;
+    max-width: 100%;
+    margin-bottom:0px;
+}
+#cs_welcome .wel_list figure img {
+	width:auto;
+}
+#cs_welcome .wel_list figure figcaption {
+	padding-right:30px;
+	margin-top:10px;
+}
+#cs_welcome .wel_list figure figcaption h5 {
+	font-size:20px;
+	font-weight:500;
+	color:#000;
+	text-transform: capitalize;
+	margin-bottom:10px;
+}
+#cs_welcome .wel_list figure figcaption h5 span {
+	color:#a58838;
+}
+#cs_welcome .wel_list figure figcaption p {
+	margin-bottom:0px;
+}
+#cs_welcome .img_sec {
+	border:15px solid #fff;
+}
+#cs_welcome .img_sec img {}
+#cs_welcome .img_sec .p_name {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 10px;
+}
+#cs_welcome .img_sec .p_name span {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+}
+/* --------------------------------------------------------------------------------
+                            Why Art Of Living
+-------------------------------------------------------------------------------- */
+#cs_waol {
+	padding:50px 0px;
+}
+#cs_waol .grid_left {
+	border-right:1px solid #a58838;
+}
+#cs_waol .grid_left .heading {
+	margin-bottom:0px;
+}
+#cs_waol .grid_right {
+	padding-left:50px;
+}
+#cs_waol .grid_right p {
+	margin-bottom:0px;
+}
+#cs_waol .grid_right p:first-letter {
+	font-weight:700;
+}
+/* --------------------------------------------------------------------------------
+                            Grid Gallery
+-------------------------------------------------------------------------------- */
+#cs_gallery {}
+#cs_gallery figure {
+	position: relative;
+    margin-bottom: 0px;
+}
+#cs_gallery figure figcaption {
+	position: absolute;
+    transition: 0.6s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.41);
+    transform: scale(0, 0);
+}
+#cs_gallery figure:hover figcaption {
+	transform: scale(1, 1);
+}
+#cs_gallery figure figcaption a {
+	position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 100%;
+}
+#cs_gallery figure figcaption a h5 {
+	color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+#cs_gallery figure figcaption a p {
+	color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+/* --------------------------------------------------------------------------------
+                            Testimonial
+-------------------------------------------------------------------------------- */
+#cs_testimonial {
+	padding:60px 0px;
+}
+#cs_testimonial .heading {
+	text-align: center;
+	margin-bottom:80px;
+}
+#cs_testimonial .heading span {
+	font-style: italic;
+}
+#cs_testimonial .cs_says {
+	background-color: #eae3cd;
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+#cs_testimonial .cs_says .cs_ratings {
+	text-align: center;
+    margin-bottom: 10px;
+}
+#cs_testimonial .cs_says>p {
+	font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    z-index:4;
+}
+#cs_testimonial .cs_says>p:before {
+	content:'\f10d';
+	font-family: 'FontAwesome';
+    color: #ddd2b1;
+    font-size: 80px;
+    font-style: normal;
+    position: absolute;
+    z-index: -1;
+    left: -10px;
+}
+#cs_testimonial .cs_says figure {
+	text-align: center;
+	margin-bottom:0px;
+}
+#cs_testimonial .cs_says figure .img_sec {
+	width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+#cs_testimonial .cs_says figure .img_sec img {}
+#cs_testimonial .cs_says figure figcaption {
+	display: inline-block;
+    text-align: left;
+    top: -15px;
+    position: relative;
+    left: 10px;
+}
+#cs_testimonial .cs_says figure figcaption h5 {
+	margin-bottom:5px;
+	font-size:18px;
+	text-transform: capitalize;
+	font-weight:500;
+}
+#cs_testimonial .cs_says figure figcaption h5 a {
+	color:#000;
+	text-decoration: none;
+}
+#cs_testimonial .cs_says figure figcaption p {
+	margin-bottom:0px;
+	font-size:16px;
+	text-transform: capitalize;
+}
+#cs_testimonial .owl-theme .owl-nav {
+    margin-top: 0;
+    position: absolute;
+    top: -60px;
+    width: 100%;
+}
+#cs_testimonial .owl-theme .owl-nav [class*=owl-] {
+    color: #333;
+    font-size: 30px;
+    margin: 5px;
+    padding:0px;
+    background: #ecedf2;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+#cs_testimonial .owl-theme .owl-nav [class*=owl-]:hover {
+    background: #ecedf2;
+    color: #bf1e2e;
+    text-decoration: none;
+}
